@@ -1,0 +1,1 @@
+Goal: Using Selenium and Chrome Driver, My goal for this Repo is to have the bot log in, find out if it is anyones birthday, and if so, post a nice message on their wall.
