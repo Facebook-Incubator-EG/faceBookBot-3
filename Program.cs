@@ -17,11 +17,19 @@ namespace happyBirthday
             chromeDriver.Navigate().GoToUrl("https://facebook.com");
 
             chromeDriver.FindElementByName("email").SendKeys("marcusgalvin@gmail.com");
-            chromeDriver.FindElementByName("pass").SendKeys("**yourpassword");
+            chromeDriver.FindElementByName("pass").SendKeys("bobjoebob1");
             chromeDriver.FindElementByClassName("login_form_login_button").Click();
 
             //go to profile
-            chromeDriver.FindElementByClassName("_2s25").Click();
+
+            chromeDriver.FindElementByClassName("_3ixn").Click();
+            chromeDriver.FindElementById("home_birthdays").Click();
+
+            //chromeDriver.FindElementByClassName("innerWrap").SendKeys("happy birthday");
+
+            //var friendsName = chromeDriver.FindElementByClassName("fsm")
+            //Console.WriteLine(friendsName);
+
 
 
 
