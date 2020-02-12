@@ -14,6 +14,8 @@ namespace happyBirthday
 
 
 
+//go to webite
+
             chromeDriver.Navigate().GoToUrl("https://facebook.com");
 
             chromeDriver.FindElementByName("email").SendKeys("marcusgalvin@gmail.com");
@@ -25,10 +27,11 @@ namespace happyBirthday
             chromeDriver.FindElementByClassName("_3ixn").Click();
             chromeDriver.FindElementById("home_birthdays").Click();
 
-            //chromeDriver.FindElementByClassName("innerWrap").SendKeys("happy birthday");
+            chromeDriver.FindElementByClassName("enter_submit").SendKeys("happy birthday");
 
             //var friendsName = chromeDriver.FindElementByClassName("fsm")
             //Console.WriteLine(friendsName);
+
 
 
 
