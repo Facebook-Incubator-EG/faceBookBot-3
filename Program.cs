@@ -17,7 +17,7 @@ namespace happyBirthday
 //go to webite
 
             chromeDriver.Navigate().GoToUrl("https://facebook.com");
-
+//login
             chromeDriver.FindElementByName("email").SendKeys("marcusgalvin@gmail.com");
             chromeDriver.FindElementByName("pass").SendKeys("bobjoebob1");
             chromeDriver.FindElementByClassName("login_form_login_button").Click();
